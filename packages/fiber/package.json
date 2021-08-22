@@ -42,7 +42,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
+    "expo-gl": "^10.4.2",
+    "expo-three": "^5.7.0",
     "react-merge-refs": "^1.1.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
     "react-reconciler": "^0.26.2",
     "react-three-fiber": "0.0.0-deprecated",
     "react-use-measure": "^2.0.4",
@@ -53,12 +56,12 @@
     "zustand": "^3.5.1"
   },
   "peerDependencies": {
-    "react": ">=17.0",
-    "react-dom": ">=17.0",
-    "three": ">=0.126",
     "expo-gl": "^10.2.0",
     "expo-three": "^5.7.0",
-    "react-native": "^0.63.0"
+    "react": ">=17.0",
+    "react-dom": ">=17.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "three": ">=0.126"
   },
   "peerDependenciesMeta": {
     "react-dom": {
