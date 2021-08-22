@@ -38,8 +38,7 @@
     ]
   },
   "scripts": {
-    "prebuild": "cp ../../readme.md readme.md",
-    "expo": "export EXPO_NO_TYPESCRIPT_SETUP=1 && npx expo-cli start --config \"./demo/app.json\" -c"
+    "prebuild": "cp ../../readme.md readme.md"
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
@@ -74,12 +73,5 @@
     "react-native": {
       "optional": true
     }
-  },
-  "devDependencies": {
-    "@types/react-native": "^0.64.5",
-    "expo": "^41.0.1",
-    "expo-gl": "^10.2.0",
-    "expo-three": "^5.7.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz"
   }
 }
